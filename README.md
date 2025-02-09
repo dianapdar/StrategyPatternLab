@@ -1,4 +1,4 @@
-# StrategyPatternLab
+# StrategyLabAssignmnent
 Problem scenario:
 
 Suppose we have three types of characters in a GameApp:
