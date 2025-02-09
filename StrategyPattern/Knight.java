@@ -1,3 +1,5 @@
+package StrategyPattern;
+
 class Knight {
     private AttackStrategy attackStrategy;
     private DefenseStrategy defenseStrategy;
@@ -7,11 +9,11 @@ class Knight {
         defenseStrategy = new Shield();
     }
 
-    public void performAttack() {
+    public void attack() {
         attackStrategy.attack();
     }
 
-    public void performDefense() {
+    public void defend() {
         defenseStrategy.defend();
     }
 
@@ -29,11 +31,11 @@ class Wizard {
         defenseStrategy = new CreateMagicBarrier();
     }
 
-    public void performAttack() {
+    public void attack() {
         attackStrategy.attack();
     }
 
-    public void performDefense() {
+    public void defend() {
         defenseStrategy.defend();
     }
 }
@@ -47,11 +49,11 @@ class Archer {
         defenseStrategy = new Dodge();
     }
 
-    public void performAttack() {
+    public void attack() {
         attackStrategy.attack();
     }
 
-    public void performDefense() {
+    public void defend() {
         defenseStrategy.defend();
     }
 }

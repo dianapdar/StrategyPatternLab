@@ -1,3 +1,0 @@
-interface DefenseStrategy {
-    void defend();
-}
