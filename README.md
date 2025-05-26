@@ -1,5 +1,5 @@
 # StrategyLabAssignmnent
-Problem scenario:
+### Problem scenario:
 
 Suppose we have three types of characters in a GameApp:
 
@@ -8,19 +8,20 @@ Suppose we have three types of characters in a GameApp:
 3. Archer: Shoots arrows; uses dodge to to defend
 
 Implement two types of Strategy:
-A.  DefenseStrategy
-     1. Shield
-     2. Dodge
-     3. CreateMagic
-
-B.  AttackStrategy
-     1.  CastSpell
-     2.  ShootArrow
-     3.  SwingSword  
-
+     
+A. DefenseStrategy
+1. Shield
+2. Dodge
+3. CreateMagic
+   
+B. AttackStrategy
+1. CastSpell
+2. ShootArrow
+3. SwingSword
 
 Refactor the existing codes and provide the UML Diagram:
-
+<pre lang="markdown"> ```java
+	
 public class Character {
     private String type;
 
@@ -51,3 +52,8 @@ public class Character {
         }
     }
 }
+	``` </pre>
+
+### UML Class Diagram
+
+![Screenshot 2025-05-26 082459](https://github.com/user-attachments/assets/053ac27c-442e-42b0-be51-e673c5b948f9)
